@@ -55,7 +55,7 @@ public class ArithmeticOps {
 	public int DivideOpeartion(int a, int b) {
 		int result = 0;
 		if (b == 0) {
-			logger.debug("Zero is not allowed", new ArithmeticException());
+			logger.error("Zero is not allowed", new ArithmeticException());
 		} else {
 			result = a / b;
 		}
