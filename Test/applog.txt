@@ -1,1 +1,9 @@
 DEBUG   2019-08-17 16:35:47,447 [main] Log4jPropertiesConfigurationExample  - Log4j appender configuration is successful !!
+DEBUG   2019-08-17 19:39:35,687 [main] ArithmeticOps  - Zero is not allowd
+InvalidMultiplyZeroOperation: not valid
+	at ArithmeticOps.MultiplyOperation(ArithmeticOps.java:47)
+	at ArithmeticOps.main(ArithmeticOps.java:31)
+DEBUG   2019-08-17 19:39:35,688 [main] ArithmeticOps  - Zero is not allowed
+java.lang.ArithmeticException
+	at ArithmeticOps.DivideOpeartion(ArithmeticOps.java:58)
+	at ArithmeticOps.main(ArithmeticOps.java:32)
